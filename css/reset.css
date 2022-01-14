@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none; /* убирает стандартный стиль ссылки */
+  display: inline-block; /* делает блочно строчную ссылку */
+}
+ul,
+li {
+  list-style: none; /* убирает маркеры в списках */
+  margin: 0;
+  padding: 0;
+}

@@ -1,1 +1,45 @@
+.header {
+  /* общие стили для данного блока */
+  .header__conteiner_align-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  /* ----------------------------- */
 
+  /* темный фон */
+  .header__top {
+    background-color: #303030;
+  }
+
+  .header__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* блок с телефоном и емейлом */
+    .header__wrap-block-phone-email {
+      * {
+        color: #fff;
+      }
+    }
+
+    /* кнопка */
+    .header__batton {
+      padding: 10px 15px 10px 40px;
+      color: #000;
+      transition: 0.2s ease-in-out all;
+    }
+    .header__batton_img_case-yellow {
+      background: url(../img/SVG_images/suitcase_briefcase_icon_178309.svg) 15px
+        center / 20px no-repeat #ffc222;
+    }
+    .header__batton:hover {
+      opacity: 0.8;
+    }
+    /* ------ */
+  }
+  /* светлый фон */
+  .header__content {
+  }
+}
